@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InfoActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:text="KidneyCare" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="5" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="21dp" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/syarat"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="21dp" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1. Umur"
+                android:textColor="@color/black"
+                android:textSize="21dp" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2. Berat Badan"
+                android:textColor="@color/black"
+                android:textSize="21dp" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3. Jenis Kelamin"
+                android:textColor="@color/black"
+                android:textSize="21dp" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="4. Serum Kreatinin"
+                android:textColor="@color/black"
+                android:textSize="21dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/hasil"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="21dp" />
+
+            <TextView
+                android:id="@+id/satu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1. ≥ 90 : normal/ ada kerusakan ginjal tanpa gangguan fungsi ginjal."
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="21dp" />
+            <TextView
+                android:id="@+id/dua"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2. 60 - 89 : Kerusakan ginjal dengan gangguan fungsi ginjal ringan."
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="21dp" />
+            <TextView
+                android:id="@+id/tiga"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3. 45 - 59 : Gangguan fungsi ginjal ringan sampai sedang."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="21dp" />
+            <TextView
+                android:id="@+id/empat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="4. 30 - 44 : Gangguan fungsi ginjal sedang sampai berat."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="21dp" />
+            <TextView
+                android:id="@+id/enam"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="5. 16 - 29 : Gangguan fungsi ginjal  berat."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="21dp" />
+            <TextView
+                android:id="@+id/lima"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" 6.≤15: gagal ginjal yang membutuhkan cuci darah/ transplantasi ginjal."
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="21dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

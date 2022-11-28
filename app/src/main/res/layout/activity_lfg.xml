@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LfgActivity">
+
+
+    <RadioGroup
+        android:id="@+id/jk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal"
+        android:padding="5px">
+
+        <RadioButton
+            android:id="@+id/cowok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laki-Laki"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/cewek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="Perempuan"
+            android:textSize="15dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginBottom="619dp"
+        android:text="Jenis Kelamin :"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/serumKreatinin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="270dp"
+        android:text="Kreatinin (mg/dL) :"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/beratBadan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="238dp"
+        android:text="Berat Badan (Kg) :"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/isiKreatinin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="201dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="354dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/isiBerat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="202dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="435dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/isiUmur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="201dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="501dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/Umur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="150dp"
+        android:text="Umur (Tahun) :"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="386dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="290dp"
+        android:backgroundTint="#41C1BA"
+        android:onClick="detectNow"
+        android:text="Hitung" />
+
+    <TextView
+        android:id="@+id/logHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="491dp"
+        android:layout_marginEnd="0dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="160dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">
+   KidneyCare merupakan sebuah aplikasi untuk menghitung Laju Filtrasi Glomerulus (LFG). LFG adalah pemeriksaan fungsi ginjal.
+    </string>
+    <string name="syarat">Untuk menghitung LFG sendiri dibutuhkan beberapa data, seperti:  </string>
+    <string name="hasil">Hasil akhir dari LFG ada beberapa macam :</string>
+    <string name="male">Laki-Laki</string>
+    <string name="female">Perempuan</string>
+
+</resources>
